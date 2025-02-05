@@ -2,10 +2,10 @@ INSERT INTO roles (role_name) VALUES ('Customer'), ('TravelAgent'), ('Admin');
 
 INSERT INTO customers (first_name, last_name, email, password_hash, role_id)
 VALUES
-('Tina', 'Kales', 'tkales@gmail.com', 'klklkl',),
+('Tina', 'Kales', 'tkales@gmail.com', 'klklkl', 1), -- remove comma and add 1
 ('Stiles', 'McCall', 'smccall23@gmail.com', 's67th', 1),
 ('Zeke', 'Argent', 'zargent89@gmail.com', 'zeke123', 1),
-('Mia', 'Moline', 'mmoleme@gmail.com', '3386', 1)
+('Mia', 'Moline', 'mmoleme@gmail.com', '3386', 1); --add semi column
 
 INSERT INTO destinations (destination_name, region, country)
 VALUES
@@ -39,7 +39,7 @@ VALUES
 (1, 1, 1, 700.00),
 (2, 2, 2, 500.00),
 (3, 3, 3, 1800.00),
-(4, 4, 4, 1300.00),
+(4, 4, 4, 1300.00); --semi column
 
 INSERT INTO bookingservices (booking_id, service_id)
 VALUES
